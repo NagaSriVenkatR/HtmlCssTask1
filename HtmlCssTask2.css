@@ -1,0 +1,224 @@
+*{
+  margin: 0;
+  padding: 0;
+ }
+ .menu{
+  
+  margin: 15px 200px;
+  font-size: 40px;
+}
+.menuicon{
+  cursor: pointer;
+}
+.menuicon:hover{
+  color: red;
+}
+.contact{
+  padding: 35px 50px;
+  display: flexbox;
+  background-color: lightblue;
+  color: white;
+}
+.contact-Head{
+  font-size: 60px;
+  font-weight: lighter;
+  padding: 0px 500px 0px 100px;
+}
+.contact-Paragraph{
+  margin: 0px 61px 0px 0px;
+  font-family: sans-serif;
+  font-size: 23px;
+  padding: 20px 500px 20px 100px;
+}
+.contact-Button{
+  border-radius: 50px;
+  padding: 20px 40px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  margin-left: 100px;
+}
+.contact-Button:hover{
+  background-color: black;
+  color: white;
+}
+.project{
+  /* padding: 50px 180px; */
+  justify-content: center;
+  margin: 20px 30px;
+  margin-bottom: 50px;
+}
+.project-Head{
+  text-align: center;
+  font-size: 60px;
+  font-weight: lighter;
+  margin: 20px 0px;
+  margin-top: 0px;
+}
+.project-Images{
+  display: grid;
+  grid-template-rows: repeat(3, 350px);
+  grid-template-columns: repeat(3,350px);
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.books,.notes,.book,.laptop,.notebook,.iphone,.address,.table,.desk{
+  transition: 0.3s ease-in-out;
+  overflow: hidden;
+}
+.books:hover .books-Image{
+  transform: scale(1.1);
+}
+.notes:hover .notes-Image{
+  transform: scale(1.1);
+}
+.book:hover .book-Image{
+  transform: scale(1.1);
+}
+.laptop:hover .laptop-Image{
+  transform: scale(1.1);
+}
+.notebook:hover .notebook-Image{
+  transform: scale(1.1);
+}
+.iphone:hover .iphone-Image{
+  transform: scale(1.1);
+}
+.address:hover .address-Image{
+  transform: scale(1.1);
+}
+.table:hover .table-Image{
+  transform: scale(1.1);
+}
+.desk:hover .desk-Image{
+  transform: scale(1.1);
+}
+.books-Image,.notes-Image,.book-Image,.laptop-Image,.notebook-Image,.iphone-Image,.address-Image,.table-Image,.desk-Image{
+  width: 100%;
+  height: 100%; 
+}
+.about-Page{
+  background-color: rgb(26, 26, 26);
+  padding: 50px 50px;
+  margin-top: 50px;
+}
+.page-Head{
+  padding-left: 150px;
+  color: white; 
+  font-size: 50px; 
+  margin-bottom: 30px;
+}
+.about-Members{
+  display: grid;
+  grid-template-rows: repeat(1,400px);
+  grid-template-columns: repeat(3,350px);
+  justify-content: center;
+  grid-gap: 30px;
+}
+.about-larson,.about-jhonson,.about-olga{
+  margin: 10px 0px;
+  display: grid;
+  padding: 10px 40px;
+  background-color: white;
+  background-size: auto;
+}
+.role{
+  color: lightblue;
+}
+.desc,.name,.role,.date{
+  font-size: 22px;
+}
+.date{
+  color: grey;
+}
+.project-Imager{
+  display: grid;
+  grid-template-rows: repeat(2, 350px);
+  grid-template-columns: repeat(3,350px);
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.project-Para{
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 10px;
+}
+.project-Flex{
+  text-decoration: none;
+  color: rgb(30, 30, 30);
+}
+.address{
+  background-color: rgb(26, 26, 26);
+  color: white;
+  display: grid;
+  grid-template-rows: repeat(1,400px);
+  grid-template-columns: 50% 25% 25%;
+  justify-content: center;
+  grid-gap: 80px;
+  padding: 10% 20%;
+}
+.email-logo{
+  height: 50px;
+  width: 50px;
+}
+.email-id{
+  border-bottom: solid;
+  padding-bottom: 20px;
+  font-size: 22px;
+}
+.sample{
+  font-size: 22px;
+  margin-top: 20px;
+}
+.address-office{
+  margin: 20px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+.social-media{
+  margin-top: 0px;
+}
+.logo{
+  font-size: 30px;
+  padding: 20px 5px;
+  color: lightblue;
+}
+.sample-para{
+  font-size: 20px;
+  margin-top: 50px;
+}
+.image{
+  padding: 70px 15px;
+  height: 150px;
+  width: 150px;
+}
+footer{
+  background-color: rgb(26, 26, 26);
+  color: white;
+  justify-content: center;
+  padding: 10px 30px;
+}
+.footer-head{
+  font-size: 22px;
+  text-align: center;
+}
+
+.c10{
+  margin: 50px 50px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+.temp{
+  margin: 10px 10px;
+  font-size: 22px;
+  color: lightblue;
+}
+.p13{
+  margin: 10px 10px;
+  font-size: 20px;
+} 
+
