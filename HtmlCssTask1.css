@@ -85,7 +85,7 @@
 .iphone:hover .iphone-Image{
   transform: scale(1.1);
 }
-.address:hover .address-Image{
+.addresss:hover .addresss-Image{
   transform: scale(1.1);
 }
 .table:hover .table-Image{
@@ -94,7 +94,7 @@
 .desk:hover .desk-Image{
   transform: scale(1.1);
 }
-.books-Image,.notes-Image,.book-Image,.laptop-Image,.notebook-Image,.iphone-Image,.address-Image,.table-Image,.desk-Image{
+.books-Image,.notes-Image,.book-Image,.laptop-Image,.notebook-Image,.iphone-Image,.addresss-Image,.table-Image,.desk-Image{
   width: 100%;
   height: 100%; 
 }
